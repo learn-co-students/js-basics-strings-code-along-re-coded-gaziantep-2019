@@ -3,6 +3,8 @@ let currentUser = "Mahmoud" ;
 
 let welcomeMessage = "Welcome to Flatbook, " + currentUser + " !";
 
-let excitedWelcomeMessage =  "WELCOME TO FLATBOOK, " + currentUser + " !";
+const upperCaseCurrentUser = currentUser.toUpperCase();
+
+let excitedWelcomeMessage =  "WELCOME TO FLATBOOK, " + upperCaseCurrentUser + " !";
 
 let shortGreeting = "Welcome, " + currentUser[0] + " !";
